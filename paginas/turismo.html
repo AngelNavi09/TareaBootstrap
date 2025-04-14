@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo - Semana Santa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Semana Santa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link" href="recetas.html">Recetas</a></li>
+              <li class="nav-item"><a class="nav-link" href="tradiciones.html">Tradiciones</a></li>
+              <li class="nav-item"><a class="nav-link active" href="turismo.html">Turismo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Turismo en Semana Santa en Bolivia</h2>
+    
+    <!-- Componente Tabs -->
+    <ul class="nav nav-tabs" id="turismoTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="destinos-tab" data-bs-toggle="tab" data-bs-target="#destinos" type="button" role="tab" aria-controls="destinos" aria-selected="true">
+          Destinos
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="actividades-tab" data-bs-toggle="tab" data-bs-target="#actividades" type="button" role="tab" aria-controls="actividades" aria-selected="false">
+          Actividades
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="recomendaciones-tab" data-bs-toggle="tab" data-bs-target="#recomendaciones" type="button" role="tab" aria-controls="recomendaciones" aria-selected="false">
+          Recomendaciones
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="turismoTabsContent">
+      <div class="tab-pane fade show active p-4" id="destinos" role="tabpanel" aria-labelledby="destinos-tab">
+        <h3>Destinos Turísticos</h3>
+        <p>Descubre lugares emblemáticos de Bolivia durante Semana Santa, donde la tradición religiosa se funde con la belleza natural y el patrimonio cultural.</p>
+        <img src="../imagenes/destino_turismo.jpg" class="img-fluid" alt="Destinos Turísticos">
+      </div>
+      <div class="tab-pane fade p-4" id="actividades" role="tabpanel" aria-labelledby="actividades-tab">
+        <h3>Actividades Culturales</h3>
+        <p>Durante esta celebración se organizan ferias, conciertos de música sacra y representaciones que muestran la rica herencia cultural de cada región.</p>
+        <img src="../imagenes/actividades.jpg" class="img-fluid" alt="Actividades Culturales">
+      </div>
+      <div class="tab-pane fade p-4" id="recomendaciones" role="tabpanel" aria-labelledby="recomendaciones-tab">
+        <h3>Recomendaciones de Viaje</h3>
+        <p>Planifica tu visita reservando alojamiento y transporte con antelación. Infórmate sobre eventos locales y disfruta de la hospitalidad boliviana durante esta festividad.</p>
+        <img src="../imagenes/recomendaciones.jpg" class="img-fluid" alt="Recomendaciones de Viaje">
+      </div>
+    </div>
+  </div>
+  
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    Hecho Por Angel Ivan Alvarez Nina
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

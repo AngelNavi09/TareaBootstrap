@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia de Semana Santa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<style>
+    .carousel-item img {
+  height: 400px;
+
+  width: 100%;
+
+  object-fit: contain;
+  background-color: #000000; 
+}
+.container {
+  padding-top: 40px;
+}
+
+</style>
+<body>
+
+
+  <div class="container my-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Semana Santa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link active" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link" href="recetas.html">Recetas</a></li>
+              <li class="nav-item"><a class="nav-link" href="tradiciones.html">Tradiciones</a></li>
+              <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Carrusel -->
+    <div id="carruselSemanaSanta" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imagenes/semana1.jpg" class="d-block w-100" alt="Procesión Semana Santa">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/semana2.jpg" class="d-block w-100" alt="Iglesia decorada">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/semana3.jpg" class="d-block w-100" alt="Devoción y fe">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselSemanaSanta" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselSemanaSanta" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <h2 class="text-center mb-4">Historia de la Semana Santa</h2>
+    <p>
+        La Semana Santa es una tradición cristiana que conmemora los últimos días de la vida de Jesucristo, incluyendo su pasión, muerte y resurrección. Tiene sus orígenes en los primeros siglos del cristianismo, cuando las comunidades cristianas comenzaron a recordar anualmente estos acontecimientos sagrados.
+
+        Con el tiempo, la Iglesia estructuró esta celebración en una semana especial del calendario litúrgico, comenzando con el Domingo de Ramos, que recuerda la entrada triunfal de Jesús en Jerusalén, y concluyendo con el Domingo de Resurrección, que celebra su victoria sobre la muerte.
+        
+        A lo largo de los siglos, la Semana Santa se enriqueció con rituales, procesiones y representaciones religiosas que reflejan la fe, el arte y la cultura de los pueblos. Hoy en día, se celebra con gran devoción en muchos países del mundo, siendo uno de los momentos más sagrados del cristianismo </p>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    Hecho Por Angel Ivan Alvarez Nina
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

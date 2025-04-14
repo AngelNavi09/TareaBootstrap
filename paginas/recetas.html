@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recetas - Semana Santa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Semana Santa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link active" href="recetas.html">Recetas</a></li>
+              <li class="nav-item"><a class="nav-link" href="tradiciones.html">Tradiciones</a></li>
+              <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="container my-4">
+    <h2 class="text-center mb-4">Recetas por Departamento</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- La Paz -->
+      <div class="col">
+        <div class="card">
+          <img src="../imagenes/lapaz.jpg" class="card-img-top" alt="Plato La Paz">
+          <div class="card-body">
+            <h5 class="card-title">La Paz</h5>
+            <p class="card-text">Receta tradicional de Semana Santa en La Paz: wallake, pescado andino en caldo.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLaPaz">Conoce más</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Santa Cruz -->
+      <div class="col">
+        <div class="card">
+          <img src="../imagenes/santacruz.jpg" class="card-img-top" alt="Plato Santa Cruz">
+          <div class="card-body">
+            <h5 class="card-title">Santa Cruz</h5>
+            <p class="card-text">Plato típico: Majadito de pescado acompañado de yuca y plátano frito.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSantaCruz">Conoce más</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cochabamba -->
+      <div class="col">
+        <div class="card">
+          <img src="../imagenes/cochabamba.jpg" class="card-img-top" alt="Plato Cochabamba">
+          <div class="card-body">
+            <h5 class="card-title">Cochabamba</h5>
+            <p class="card-text">Plato representativo: Pescado al horno con papas y ensalada de arvejas.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCochabamba">Conoce más</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarija -->
+      <div class="col">
+        <div class="card">
+          <img src="../imagenes/tarija.jpg" class="card-img-top" alt="Plato Tarija">
+          <div class="card-body">
+            <h5 class="card-title">Tarija</h5>
+            <p class="card-text">Cazuela de pescado con mote y papas.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTarija">Conoce más</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal La Paz -->
+  <div class="modal fade" id="modalLaPaz" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Wallake - La Paz</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>El wallake es un caldo tradicional elaborado con pescado de río o lago, especialmente del Titicaca.</p>
+          <p>Este plato se acompaña con papa, chuño, y hierbas aromáticas como el quirquiña, aportando un sabor único.</p>
+          <p>Durante la Semana Santa, se consume como alternativa a las carnes rojas, siguiendo la tradición católica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Santa Cruz -->
+  <div class="modal fade" id="modalSantaCruz" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Majadito de pescado - Santa Cruz</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>El majadito es un arroz cocido con achiote y acompañado de pescado, ideal para la vigilia.</p>
+          <p>Se sirve con huevo frito, plátano maduro frito y yuca, lo que lo hace una comida completa y deliciosa.</p>
+          <p>En Semana Santa es uno de los platos más esperados en la región oriental del país.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Cochabamba -->
+  <div class="modal fade" id="modalCochabamba" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Pescado al horno - Cochabamba</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este plato es una tradición en la Semana Santa cochabambina, especialmente en Viernes Santo.</p>
+          <p>El pescado se hornea con hierbas y se acompaña de papas, mote y ensaladas frescas.</p>
+          <p>Se disfruta en familia como muestra de unión y respeto a las costumbres religiosas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Tarija -->
+  <div class="modal fade" id="modalTarija" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cazuela de pescado - Tarija</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>La cazuela es un guiso de pescado en salsa, con papas, mote y verduras.</p>
+          <p>Es común prepararla en los hogares tarijeños durante la Semana Santa.</p>
+          <p>El sabor suave del pescado se combina con el aroma del orégano y otros condimentos locales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    Hecho Por Angel Ivan Alvarez Nina
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
